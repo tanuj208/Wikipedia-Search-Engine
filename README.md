@@ -6,6 +6,8 @@ This is a wikipedia based search engine. The inverted index of Wikipedia data is
 ## Indexing
 
 ### Running the code
+`pip install -r requirements.txt`
+
 `python3 index.py [path to wiki dump] [path of index folder]`
 
 Wiki dump should be in `.xml` format (Sample wiki dump is present with filename `enwiki-latest-pages-articles26.xml-p42567204p42663461`).
@@ -15,7 +17,10 @@ Index folder is the name of the folder where you want to store inverted index of
 ## Searching
 
 ### Running the code
+`pip install -r requirements.txt`
+
 `python3 search.py [path of index folder]`
+
 `Enter your query when prompt appears`
 
 Index folder should be created using above code.
